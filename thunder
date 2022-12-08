@@ -1,0 +1,4 @@
+rm -rf nohup.out
+#nohup ssh -vvv -D 2601 rws  
+GTK_THEME=Adwaita:dark thunderbird &
+tail -f nohup.out 

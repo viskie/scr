@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xrandr --output LVDS-1 --brightness 1
+echo "600" > /sys/class/backlight/intel_backlight/brightness
